@@ -1,6 +1,44 @@
-h1 {color: 	#79429e;
+:root {
+    box-sizing: border-box;
+    --main-bg-color: #E0B0FF;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+h1 {color: 	#b771e6;
 background-color: antiquewhite;
 }
-h4 {color: 	antiquewhite;
-    background-color: #79429e;
+h4 {color: 	#8c56b1;
+    background-color: var(--main-bg-color);
+    }
+    .container {
+        display: flex;
+        overflow: hidden;
+    }
+
+    .item {
+        height: 100px;
+        width: 100px;
+        background-color: #ffefb0;
+        margin: 0 2%;
+    }
+
+    .item-center {
+        flex: 1;
+        background-color: #e6cf71;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
     }
