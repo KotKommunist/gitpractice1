@@ -1,6 +1,6 @@
 body{
     margin: 0px 20px;
-    background-color: #17243c;
+    background-color: #CEA2D7;
       font-family: sans-serif;
   }
   
@@ -40,7 +40,7 @@ body{
   font-weight: bold;
   color: #fff;}
   
-  #choose-list {background-color: #777;
+  #choose-list {background-color: #9F63C4;
   padding: 12px;}
   
   ul {margin: 0;
@@ -56,7 +56,7 @@ body{
     justify-content: space-between;
     width: auto;
   height: 200px;
-  background-color: #17243c;
+  background-color: #A348A6;
     margin-bottom: 1em;
   }
   
@@ -79,13 +79,13 @@ body{
   
   #interest {width: auto;
   height: 200px;
-  background-color: #17243c;
+  background-color: #A348A6;
   color: #eee;}
   
   #interest > h2 {margin-bottom: 1em;}
   
   #excited-about {
-    background-color: #555;
+    background-color: #674AB3;
     padding: 5px 0px 8px 5px;
     
     margin: 0px 0px;
